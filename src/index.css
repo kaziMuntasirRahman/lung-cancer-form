@@ -1,0 +1,21 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+form>label{
+  background-color: rgba(240, 248, 255, 0);
+}
+
+.w-screen{
+  background: url('https://media.istockphoto.com/id/1388994501/photo/human-lungs-healthcare-and-medical-abstract-background.webp?b=1&s=170667a&w=0&k=20&c=kBUbX_JreV-9XWRkSIDeqgECGR3i3jhKAs1XL_0W9Z4=');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.label-text{
+  color: black;
+}
+
+option{
+  /* background: rgb(95, 156, 160); */
+}
