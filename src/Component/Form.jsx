@@ -21,8 +21,8 @@ const Form = () => {
     form.reset();
   }
   return (
-    <div className="w-screen h-screen bg-sky-300 flex flex-col justify-center items-center">
-      <h1 className="text-lg md:text-2xl lg:text-4xl font-semibold text-black my-4">Lung Cancer Prediction</h1>
+    <div className="w-screen h-screen bg-sky-300 flex flex-col justify-center items-center overflow-hidden">
+      <h1 className="text-white text-lg md:text-2xl lg:text-4xl font-semibold my-4">Lung Cancer Prediction</h1>
 
       <form onSubmit={handlePredict} className="grid grid-cols-1 md:grid-cols-2 border md:gap-y-8 justify-items-center w-9/12 md:w-3/4 lg:w-1/2 rounded-xl p-5">
         {/* select gender */}
@@ -131,7 +131,7 @@ const Form = () => {
             </select>
           </label>
 
-          <button className="btn btn-accent md:col-span-2 md:min-w-96  my-6">Predict</button>
+          <button className="btn btn-accent md:col-span-2 md:min-w-96  my-2">Predict</button>
       </form>
     </div>
   );
