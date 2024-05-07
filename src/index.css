@@ -2,18 +2,37 @@
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 
+form{
+  background: linear-gradient(to left, #3a010169, #0000000c);
+}
+
 form>label{
   background-color: rgba(240, 248, 255, 0);
 }
 
+.input::placeholder{
+  font-size: larger;
+  color: black;
+}
+
 .w-screen{
-  background: url('https://media.istockphoto.com/id/1388994501/photo/human-lungs-healthcare-and-medical-abstract-background.webp?b=1&s=170667a&w=0&k=20&c=kBUbX_JreV-9XWRkSIDeqgECGR3i3jhKAs1XL_0W9Z4=');
+  background: url('https://img.goodfon.com/original/3000x1875/5/2e/medicine-lungs-anatomy.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .label-text{
+  color: white;
+  font-size: larger;
+}
+
+.select option{
   color: black;
+  font-size: large;
+}
+
+.select{
+  font-size: larger;
 }
 
 option{
