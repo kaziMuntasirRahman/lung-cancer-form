@@ -21,7 +21,7 @@ const Form = () => {
     form.reset();
   }
   return (
-    <div className="w-screen bg-sky-300 flex flex-col justify-center items-center lg:overflow-hidden">
+    <div className="w-screen bg-sky-300 flex flex-col justify-center items-center lg:overflow-hidden min-w-screen">
       <h1 className="text-white text-lg md:text-2xl lg:text-4xl font-semibold my-4">Lung Cancer Prediction</h1>
 
       <form onSubmit={handlePredict} className="grid grid-cols-1 md:grid-cols-2 border gap-x-10 gap-y-8 justify-items-center rounded-xl p-5 w-full lg:w-3/5">
