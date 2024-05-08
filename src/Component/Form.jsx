@@ -28,7 +28,7 @@ const Form = () => {
         {/* select gender */}
           <label className="form-control w-full max-w-xs" required>
             <span className="label label-text">Gender</span>
-            <select className="select select-bordered" name="gender" required>
+            <select className="select select-bordered" name="Gender" required>
               <option disabled selected>select gender</option>
               <option>Male</option>
               <option>Female</option>
@@ -38,12 +38,12 @@ const Form = () => {
           {/* input age */}
         <label className="form-control w-full max-w-xs" required>
           <span className="label label-text">Age</span>
-          <input type="number" placeholder="enter age" className="input input-bordered w-full max-w-xs" name="age" min={0} required />
+          <input type="number" placeholder="enter age" className="input input-bordered w-full max-w-xs" name="Age" min={0} required />
         </label>
         {/* select smoking status */}
           <label className="form-control w-full max-w-xs" required>
             <span className="label label-text">Do you smoke?</span>
-            <select className="select select-bordered" name="smoking">
+            <select className="select select-bordered" name="Smoking">
               <option disabled selected>Does victim smoke?</option>
               <option>YES</option>
               <option>NO</option>
@@ -52,7 +52,7 @@ const Form = () => {
           {/* select chewing tobacco status */}
           <label className="form-control w-full max-w-xs" required>
             <span className="label label-text">Do you drink or eat tobacco?</span>
-            <select className="select select-bordered" name="chewingTobacco">
+            <select className="select select-bordered" name="Chewingtobacco">
               <option disabled selected>does patient chew tobacco?</option>
               <option>YES</option>
               <option>NO</option>
@@ -61,7 +61,7 @@ const Form = () => {
           {/* select coughing status */}
           <label className="form-control w-full max-w-xs" required>
             <span className="label label-text">Coughing</span>
-            <select className="select select-bordered" name="coughing">
+            <select className="select select-bordered" name="Coughing">
               <option disabled selected>Do you have a dry cough? </option>
               <option>YES</option>
               <option>NO</option>
@@ -70,7 +70,7 @@ const Form = () => {
           {/* select shortness of breath status */}
           <label className="form-control w-full max-w-xs" required>
             <span className="label label-text">Shortness Of Breath</span>
-            <select className="select select-bordered" name="shortnessOfBreath">
+            <select className="select select-bordered" name="Shortnessofbreath">
               <option disabled selected>Do you have breathing problems?</option>
               <option>YES</option>
               <option>NO</option>
@@ -79,7 +79,7 @@ const Form = () => {
           {/* select chest pain status */}
           <label className="form-control w-full max-w-xs" required>
             <span className="label label-text">Chest Pain</span>
-            <select className="select select-bordered" name="chestPain">
+            <select className="select select-bordered" name="Chestpain">
               <option disabled selected>Do you have chest pain? </option>
               <option>YES</option>
               <option>NO</option>
@@ -88,7 +88,7 @@ const Form = () => {
           {/* select coughing up blood status */}
           <label className="form-control w-full max-w-xs" required>
             <span className="label label-text">Coughing up blood</span>
-            <select className="select select-bordered" name="coughingUpBlood">
+            <select className="select select-bordered" name="Coughingupblood">
               <option disabled selected>Are you experiencing coughing with blood? </option>
               <option>YES</option>
               <option>NO</option>
@@ -97,7 +97,7 @@ const Form = () => {
           {/* select weight loss status */}
           <label className="form-control w-full max-w-xs" required>
             <span className="label label-text">Unintended Weight Loss</span>
-            <select className="select select-bordered" name="weightLoss">
+            <select className="select select-bordered" name="UnintendedweightLoss">
               <option disabled selected>Are you losing weight? </option>
               <option>YES</option>
               <option>NO</option>
@@ -106,7 +106,7 @@ const Form = () => {
           {/* select Fatigue status */}
           <label className="form-control w-full max-w-xs" required>
             <span className="label label-text">Fatigue</span>
-            <select className="select select-bordered" name="fatigue">
+            <select className="select select-bordered" name="Fatigue">
               <option disabled selected>Are you feeling weak? </option>
               <option>YES</option>
               <option>NO</option>
@@ -115,7 +115,7 @@ const Form = () => {
           {/* select wheezing status */}
           <label className="form-control w-full max-w-xs" required>
             <span className="label label-text">Is your respiratory system producing unusual sounds? </span>
-            <select className="select select-bordered" name="wheezing">
+            <select className="select select-bordered" name="Wheezing">
               <option disabled selected>does patient have wheezing?</option>
               <option>YES</option>
               <option>NO</option>
@@ -124,7 +124,7 @@ const Form = () => {
           {/* select dust allergy status */}
           <label className="form-control w-full max-w-xs" required>
             <span className="label label-text">Dust Allergy</span>
-            <select className="select select-bordered" name="dustAllergy">
+            <select className="select select-bordered" name="DustAllergy">
               <option disabled selected>Do you have allergies?</option>
               <option>YES</option>
               <option>NO</option>
